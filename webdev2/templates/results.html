@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+</head>
+<body>
+    <h1>Movie Recommendations</h1>
+     <p>Hop on the sofa and watch the following movies:</p>
+     <ul>
+         <!-- Jinja tag for loop -->
+         {% for movie in recommendation_list %}
+         <li>{{ movie }}</li>
+         {% endfor %}
+         <!-- Jinja tag-->
+         <!-- <li>{{ first_movie }}</li>
+         <li>{{ second_movie }}</li>
+         <li>{{ third_movie }}</li> -->
+     </ul>
+</body>
+</html>
